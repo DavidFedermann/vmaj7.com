@@ -1,0 +1,48 @@
+
+/**
+ *  @file
+ *  About
+ */
+
+.path-contact .pad-top { padding-top:415px; text-align:center; }
+
+.third-block { display:inline-block; width:300px; max-width:100%; padding:10px 40px; vertical-align:top; }
+
+.path-contact .pad-top,
+.path-contact .third-block { text-align:center; }
+
+/*
+.path-contact .third-block { background-color:rgba(0,0,0,.3); @include vendor(box-shadow, 0 0 50px rgba(0,0,0,0.5)); }
+*/
+.path-contact .third-block { @include vendor(text-shadow, 0 0 20px rgba(0,0,0,1)); }
+
+.path-contact .pad-top h2,
+.path-contact .pad-top .spamspan { font-family:Georgia serif; }
+
+.path-contact .pad-top .spamspan { font-style:italic; color:white; font-size:1.1em; text-decoration:none; }
+.path-contact .pad-top .spamspan:hover { color:#20648b; }
+
+.path-contact .pad-top h2 { text-transform:uppercase; font-weight:normal; }
+
+.path-contact .pad-top .sprite--icon { display:inline-block; width:55px; height:55px; margin:5px; }
+
+.icon-soundcloud-large { background-position:-269px 0; }
+.icon-soundcloud-large:hover { background-position:-269px -64px; }
+
+.icon-soundcloud-large { background-position:-269px 0; }
+.icon-soundcloud-large:hover { background-position:-269px -64px; }
+
+.icon-fb-large { background-position:-207px 0; }
+.icon-fb-large:hover { background-position:-207px -64px; }
+
+.icon-spotify-large { background-position:-90px 0; }
+.icon-spotify-large:hover { background-position:-90px -64px; }
+
+.icon-deezer-large { background-position:-145px 0; }
+.icon-deezer-large:hover { background-position:-145px -64px; }
+
+.icon-itunes-large { background-position:-335px 0; }
+.icon-itunes-large:hover { background-position:-335px -64px; }
+
+.icon-discogs-large { background-position:-400px 0; }
+.icon-discogs-large:hover { background-position:-400px -64px; }

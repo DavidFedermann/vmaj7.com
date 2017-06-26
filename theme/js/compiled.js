@@ -1,0 +1,1 @@
+function stick_to_bottom(o){var t=$(document).height(),i=o.height()+3,n=o.position();n.top<t-i&&o.css("top",t-i+"px")}!function(o){o(".footer-main").hide(),o(document).ready(function(){setTimeout(function(){stick_to_bottom(o(".footer-main")),o(".footer-main").show()},520)}),o(window).resize(function(){stick_to_bottom(o(".footer-main"))})}(jQuery);

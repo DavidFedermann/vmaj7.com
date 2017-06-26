@@ -1,0 +1,17 @@
+
+/**
+ *  @file
+ *  Artists
+ */
+
+.portrait-wrap { cursor:pointer; position:relative; }
+
+.portrait-wrap .person-name { position:absolute; left:5%; bottom:10px; background:rgba(32,100,139,.65); display:block; width:90%; text-align:center; font-size:.9em; visibility:hidden; }
+
+.portrait-wrap:hover { @include vendor(box-shadow, 0 0 30px rgba(32,100,139,1)); }
+.portrait-wrap:hover .person-name { visibility:visible; }
+
+.artists-wrap { margin-top:70px; padding-bottom:55px; }
+
+.path-artists h2 { font-family:Georgia; text-align:center; font-weight:normal; margin:90px 0 0 0; font-size:2em; font-style:italic; }
+

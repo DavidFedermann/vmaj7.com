@@ -1,0 +1,21 @@
+
+/**
+ *  @file
+ *  Footer styles
+ */
+
+/*
+.footer-main { position:fixed; left:0px; bottom:0px; height:43px; width:100%; background:rgba(0,0,0,.85); border-bottom:3px solid #20648b; }
+*/
+.footer-main { position:absolute; left:0px; bottom:0px; height:43px; width:100%; background:rgba(0,0,0,.85); border-bottom:3px solid #20648b; }
+
+footer { color:#57595d; font-size:.85em; line-height:43px; }
+
+footer .container { padding-left:43px; background:url(../img/lunettes-small.png) no-repeat 0 12px; }
+
+footer .nav { text-align:right; float:right; }
+footer .nav a { font-size:inherit; }
+
+.nav .design-by { color:#4e5154; padding-left:20px; }
+.design-by a,
+.design-by em { color:inherit; }

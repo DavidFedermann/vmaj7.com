@@ -1,0 +1,127 @@
+
+/**
+ *  @file
+ *  Specific styles for vmaj7
+ *  "Low level"
+ */
+
+/*
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('../fonts/raleway/raleway_thin-../fonts/raleway/raleway_thin-webfont.eot');
+    src: url('../fonts/raleway/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/raleway/raleway_thin-webfont.woff') format('woff'),
+    url('../fonts/raleway/raleway_thin-webfont.ttf')  format('truetype'),
+    url('../fonts/raleway/raleway_thin-webfont.svg#svgFontName') format('svg');
+}
+*/
+
+html { background:black; color:white; }
+body { border-top:3px solid #20648b; /*font-family:'Raleway', sans-serif;*/ }
+a { color:#20648b; }
+
+#content { padding:40px 0; }
+
+.container { width:991px; max-width:100%; min-width:700px; margin:0 auto; }
+
+.sprite--icon { padding:0; display:block; width:35px; height:35px; background:transparent url(../img/sprite-icons.png) no-repeat; text-indent:100%; overflow:hidden; white-space:nowrap; line-height:0; }
+.sprite--icon:hover { background-position:0 -39px; }
+
+.icon-soundcloud { background-position:-36px 0; }
+.icon-soundcloud:hover { background-position:-36px -39px; }
+
+
+/*
+.bandeau { width:100%; height:480px; }
+.quote { width:100%; height:313px; }
+*/
+
+.quote { min-height:347px; }
+.quote img { display:block; margin:0 auto; }
+.quote blockquote { overflow:hidden; text-indent:100%; white-space:nowrap; /*font-size:0;*/ line-height:0; margin:0; }
+
+.shop-iframe-wrapper { margin-bottom:-10px; position:relative; }
+.shop-iframe-wrapper .carre-blanc { position:absolute; top:0; height:38px; width:100%; background:white; }
+
+.visuel-paiement { margin:0 auto; display:block; position:relative; top:-39px; }
+
+.bas-de-page { width:100%; height:100px; /*background:rgba(0,0,0,.85) url(../img/lunettes-bas-de-page.png) no-repeat center center;*/ background:black url(../img/lunettes-bas-de-page.png) no-repeat center center; margin:20px 0; }
+
+.bg-blanc { background:white; }
+
+.grid { margin:20px auto; width:100%; text-align:center; }
+.cell { display:inline-block; margin:0 3% 2.2em 3%; }
+
+/*
+.cell + .cell { margin:0 0 20px 20px ; }
+*/
+
+
+.heading-quote { font-family:Georgia, serif; font-style:italic; font-size:1.5em; font-weight:normal; text-align:center; padding:1em; }
+
+.carousel { visibility:hidden; }
+
+/*      When screen isn't wide enough
+@media screen and (max-width: 991px)
+{
+    .container { width:100%; }
+}
+*/
+
+.path-privacy-policy h2,
+.path-terms h2,
+.path-privacy-policy h3,
+.path-terms h3 { font-family:Georgia; font-style:italic; font-weight:normal; }
+
+.path-privacy-policy h2,
+.path-terms h2 { font-size:3em; text-align:center; margin-bottom:1em; }
+
+.path-privacy-policy .bg,
+.path-terms .bg { background:url(../img/bg-blue-pattern-top.jpg) no-repeat center 0; padding-top:40px; }
+.path-privacy-policy .bg-bottom,
+.path-terms .bg-bottom { background:url(../img/bg-blue-pattern-bottom.jpg) no-repeat center 100%; padding-bottom:60px; }
+
+
+/*      Responsive grids
+        @see http://www.barrelny.com/blog/text-align-justify-and-rwd/
+        @see http://codepen.io/patrickkunka/pen/GECBF
+        bof... 2013/10/14 02:09:36
+*/
+/*
+.responsive-grid { margin:20px auto; width:100%; text-align:justify; }
+.responsive-grid > li { display:inline-block; width:23%; padding-top:23%; margin-bottom:2.5%; }
+.responsive-grid:after { content:''; display:inline-block; width:100%; }
+.responsive-grid > .placeholder { padding:0; }
+
+/* 3 COL *
+@media (max-width: 800px){
+  .responsive-grid > li{
+    width: 31%;
+    padding-top: 31%;
+    margin-bottom: 3%;
+  }
+}
+
+/* 2 COL *
+@media (max-width: 600px){
+  .responsive-grid > li{
+    width: 48%;
+    padding-top: 48%;
+    margin-bottom: 4%;
+  }
+}
+
+/* SINGLE COL *
+@media (max-width: 400px){
+  .responsive-grid > li{
+    width: 100%;
+    padding-top: 100%;
+    margin-bottom: 5%;
+  }
+}
+/**/
+
+
+
+

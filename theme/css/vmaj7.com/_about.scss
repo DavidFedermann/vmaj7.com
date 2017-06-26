@@ -1,0 +1,27 @@
+
+/**
+ *  @file
+ *  About
+ */
+
+/*
+.path-about .bg-top { background:url(../img/bg-blue-pattern-double.jpg) no-repeat center -690px; }
+
+.path-about .bg-middle { background:url(../img/bg-blue-pattern-double.jpg) no-repeat center center; }
+.path-about .bg-bottom { background:url(../img/bg-blue-pattern-double.jpg) no-repeat center 150%; padding-bottom:40px; }
+*/
+
+.path-about .bg { background:url(../img/bg-blue-pattern-bottom.jpg) no-repeat center 100%; padding-bottom:40px; }
+.path-about .bg-top { /*background:url(../img/bg-blue-pattern-top.jpg) no-repeat center 0;*/ padding-top:50px; }
+.path-about .bg-cesure { background:url(../img/bg-blue-pattern-bottom.jpg) no-repeat center 100%; padding-bottom:40px; margin-bottom:35px; }
+
+.img-block { display:inline-block; width:485px; max-width:100%; padding:10px; vertical-align:top; }
+
+.path-about .bas-de-page { margin:60px auto; }
+
+.path-about .img-block { /*font-family:Arial, sans-serif; font-size:12px;*/ }
+
+.img-block img { vertical-align:middle; }
+
+.path-about .last-quote { margin-top:60px; }
+
